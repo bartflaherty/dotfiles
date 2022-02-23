@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Bart Flaherty
+	email = bart.flaherty@discordapp.com
+[pull]
+	rebase = true
+[core]
+	editor = vim
