@@ -22,3 +22,4 @@ fi
 
 
 alias start="cd ~/discord && clyde start app -l discord_web -l discord_api -i discord_admin -i discord_admin_web -l discord_admin"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
