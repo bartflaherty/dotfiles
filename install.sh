@@ -7,3 +7,5 @@ if [ -d "$DIR" ]; then
 else
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $DIR
 fi
+
+echo "* - nofile 100000" | sudo tee -a /etc/security/limits.conf
