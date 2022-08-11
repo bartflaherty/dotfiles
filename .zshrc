@@ -23,3 +23,8 @@ fi
 
 alias start="cd ~/discord && clyde start app -l discord_web -l discord_api -i discord_admin -i discord_admin_web -l discord_admin"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+alias teleport-stg='tsh ssh --cluster teleport-stg.discord.tools deploy@discord-api-cli-stg-1-1'
+alias teleport-prod='tsh ssh --cluster teleport.discord.tools deploy@discord-api-cli-prd-1-1'
+alias teleport-prod-ls='tsh ls --cluster teleport.discord.tools'
+alias teleport-stg-ls='tsh ls --cluster teleport-stg.discord.tools'
